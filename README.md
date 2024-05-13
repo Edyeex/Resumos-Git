@@ -21,11 +21,27 @@ git commit -m "nome do commit"
 ```
 ## ⁉️ Outros comandos:
 ```
-mkdir -> Cria uma pasta/repositorio local
+mkdir -> Cria uma pasta/repositorio local.
 
 cd: nome-da-pasta/
 
-touch -> Cria um arquivo vazio dentro do repositorio local
+touch -> Cria um arquivo vazio dentro do repositorio local.
+
+git log -> Exibe dados sobre o commit como, author, email, date, etc..
+
+git ignore -> Ignora/não adiciona o arquivo escolhido no commit.
+EX: 
+echo arquivo/>.git ignore
+
+git restore -> Restaura um arquivo apagado.
+
+git commit --amend -m"" -> Edita a mensagem criada no git commit -m"".
+
+git reflog -> Da uma lista mais detalhada de todas as alterações feitas.
+
+git pull -> Adiciona as alterações feitas no repositório remoto para o respositório local.
+
+
 
 
 ```
